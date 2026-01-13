@@ -34,7 +34,7 @@ mkdir -p /etc/docker/certs.d/registry.[domain]/
 ```
 
 ```bash
-cp rootCA.crt /etc/docker/certs.d/registry.[domain]/
+cp server.crt /etc/docker/certs.d/registry.[domain]/
 ```
 
 Create a directory for the host system CA:
