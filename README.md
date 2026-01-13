@@ -1,7 +1,7 @@
 # Private Docker Registry setup and nginx configuration
 ---
 
-> This repo follow by this [medium.](https://medium.com/@shubnimkar/how-to-set-up-and-use-private-docker-registry-with-authentication-web-ui-361ee39b2079)
+> This repository follows this [medium.](https://medium.com/@shubnimkar/how-to-set-up-and-use-private-docker-registry-with-authentication-web-ui-361ee39b2079)
 
 So This is file structure when completely setup.
 ![](./tree.png)
