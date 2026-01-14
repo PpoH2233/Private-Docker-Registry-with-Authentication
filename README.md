@@ -83,7 +83,31 @@ Services included:
 
 - Portainer (port 9000)
 
-## 5. RUN
+## 5. Add Insecure Registry
+
+You have to add insecure registry to docker.
+
+Edit `daemon.json`
+> Window and MAC: use Docker Desktop > Setting > Docker Engine
+
+> Docker Linux Daemon: /etc/docekr/daemon.json
+
+```bash
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "experimental": false,
+  "insecure-registries": [
+    "161.246.6.23"
+  ]
+}
+```
+
+## 6. RUN
 
 After completing the setup, start the project:
 
